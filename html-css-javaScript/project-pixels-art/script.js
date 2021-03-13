@@ -17,9 +17,12 @@ function criaPaleta() {
 
   const caixasPaleta = document.querySelectorAll('.color');
   caixasPaleta[0].style.backgroundColor = 'black';
-  caixasPaleta[1].style.backgroundColor = criaCor();
-  caixasPaleta[2].style.backgroundColor = criaCor();
-  caixasPaleta[3].style.backgroundColor = criaCor();
+  /*  caixasPaleta[1].style.backgroundColor = criaCor();
+   caixasPaleta[2].style.backgroundColor = criaCor();
+   caixasPaleta[3].style.backgroundColor = criaCor(); */
+  caixasPaleta[1].style.backgroundColor = 'rgb(237, 239, 42)';
+  caixasPaleta[2].style.backgroundColor = 'rgb(246, 66, 37)';
+  caixasPaleta[3].style.backgroundColor = 'white';
 
   caixasPaleta[0].id = 'box1';
   caixasPaleta[1].id = 'box2';

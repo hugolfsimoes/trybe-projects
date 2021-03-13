@@ -8,7 +8,8 @@ body {
   background-image: url('images/art-pencil-color-school-education-isolated-1588939-pxhere.com.jpg');
   background-position: 30% 45%;
   background-size: cover;
-  font-family: monospace;
+  font-family: Fascinate;
+
 }
 
 header {
@@ -16,25 +17,44 @@ header {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 200px;
   font-weight: 900;
-  padding-top: 25px;
+  padding-top: 50px;
   text-align: center;
   color: white;
+  text-decoration: double;
 }
+
+
+
 
 #color-palette {
   text-align: center;
-  margin-top: 350px;
+  margin-top: 400px;
+  margin-bottom: 100px;
 }
 
 .color {
-  width: 40px;
-  height: 40px;
-  border: black solid 1px;
+  width: 80px;
+  height: 80px;
+  border: white currentColor 1px;
   display: inline-block;
   margin: 10px;
   border-radius: 50%;
+}
+
+.color:hover {
+  opacity: 80%;
+  width: 82px;
+  height: 82px;
+}
+
+.selected {
+  width: 80px;
+  height: 80px;
+  border: white currentColor 1px;
+  display: inline-block;
+  margin: 10px;
 }
 
 #pixel-board {
@@ -51,19 +71,13 @@ h1 {
 .pixel {
   width: 40px;
   height: 40px;
-  border: black solid 1px;
+  border: black solid 2px;
   display: inline-block;
   background-color: white;
 
 }
 
-.selected {
-  width: 40px;
-  height: 40px;
-  border: black solid 1px;
-  display: inline-block;
-  margin: 10px;
-}
+
 
 #div-botao {
   text-align: center;
@@ -73,13 +87,22 @@ h1 {
 #clear-board {
   text-align: center;
   width: 200px;
+  height: 50px;
+  font-size: 25px;
 
 }
 
 #board-size {
-  width: 40px;
+  width: 60px;
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 100px;
 }
 
 #generate-board {
-  width: 70px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
 }
